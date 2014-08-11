@@ -1,0 +1,192 @@
+.navbar {
+    display: none !important;
+}
+
+.col-md-2.col-md-pull-10.fixed-enabler {
+    display: none !important;
+}
+
+.col-md-10.col-md-push-2 > .list.list-inline.pull-right.hidden-xs {
+    display: none !important;
+}
+
+.col-md-10.col-md-push-2 > .alpha.text-muted {
+    display: none !important;
+}
+
+html, body {
+    height: 100% !important;
+}
+
+.page {
+    padding-top: 0 !important;
+    height: 100% !important;
+}
+
+.page > .container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.page > .container > .row {
+    margin: 0 !important;
+    height: 100% !important;
+}
+
+.page > .container > .row > .col-md-10.col-md-push-2 {
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    float: none !important;
+    padding: 0 !important;
+    position: absolute !important;
+}
+
+.sheet {
+    margin-top: 0 !important;
+    height: 100% !important;
+}
+
+.chat-wrapper {
+    height: 100% !important;
+}
+
+.chat-wrapper > .row {
+    height: 100% !important;
+    margin: 0 !important;
+}
+
+.chat-wrapper > .row > .col-md-9, .chat-wrapper > .row > .col-md-3 {
+    margin-top: -30px !important;
+    padding: 30px 0 0 0 !important;
+    height: 100% !important;
+}
+
+.chat {
+    height: 100% !important;
+    padding: 0 !important;
+}
+
+.chat .activity {
+    padding-left: 0 !important;
+}
+
+.timeline-chat {
+    padding: 0 !important;
+}
+
+.activity-chat > .activity-avatar {
+    display: none !important;
+}
+
+.activity-actions > .list-inline.pull-right.omega {
+    display: none !important;
+}
+
+.js-insert-tips {
+    display: none !important;
+}
+
+* {
+    font-family: monospace !important;
+    font-size: 13px !important;
+}
+
+.timeline::before {
+    display: none !important;
+}
+
+.chat-actor {
+    margin-left: 10px !important;
+}
+
+.activity-actions, .activity-actions > .list-inline.omega {
+    float: left !important;
+    width: 125px !important;
+}
+
+.activity-content {
+    float: left !important;
+    width: calc(100% - 125px) !important;
+}
+
+.activity-content > p {
+    display: inline !important;
+}
+
+.timeline-item, .activity-chat {
+    margin: 0 !important;
+}
+
+.js-members .panel-heading, #collapseRecent {
+    display: none !important;
+}
+
+.js-members .avatar, .js-members .indicator {
+    display: none !important;
+}
+
+.timeline-insert .timestamp {
+    border: 0 !important;
+    padding: 0 !important;
+    margin-left: 125px !important;
+}
+
+.timeline-insert .timestamp::before {
+    content: "last activity ";
+    display: inline;
+}
+
+
+.js-members .panel-group, .js-members .panel, .js-members .panel-body {
+    height: 100% !important;
+}
+
+.js-members .panel {
+    border-width: 0 0 0 1px !important;
+    border-radius: 0 !important;
+}
+
+.chat-actions .pull-left {
+    display: none !important;
+}
+
+.chat-actions {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.media-body textarea {
+    height: 30px !important;
+}
+
+.timeline-item .media .pull-left {
+    display: none !important;
+}
+
+.timeline-item .media .media-body {
+    margin-left: 125px !important;
+}
+
+.timeline-item .media .media-body .activity-actions {
+    width: calc(100% - 125px) !important;
+}
+
+.timeline-item .media .media-body .list-inline.omega {
+    display: inline !important;
+    float: none !important;
+}
+
+.timeline-item .media .media-body .card.omega {
+    display: inline !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.timeline-item .media .media-body .card.omega code {
+    display: inline !important;
+}
+
+.timeline {
+    padding: 0 !important;
+}

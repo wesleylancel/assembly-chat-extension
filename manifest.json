@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Assembly Chat",
+  "version": "0.1",
+  "description": "Chat on Assembly",
+  "permissions": ["https://*.assembly.com/", "https://assembly.com/"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.assembly.com/notifications", "https://assembly.com/notifications"],
+      "js": ["assembly-chat.js"]
+    }
+  ]
+}
